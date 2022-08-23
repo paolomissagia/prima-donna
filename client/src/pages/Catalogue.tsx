@@ -1,10 +1,10 @@
-import Caruso from "../assets/World/caruso.png";
-import Gedda from "../assets/World/gedda.png";
-import Beniamino from "../assets/World/beniamino.png";
-import Jussi from "../assets/World/jussi.jpg";
-import Lanza from "../assets/World/lanza.jpg";
-import Monaco from "../assets/World/monaco.jpg";
-import Pavarotti from "../assets/World/pavarotti.jpg";
+import Caruso from "../assets/world/caruso.png";
+import Gedda from "../assets/world/gedda.png";
+import Beniamino from "../assets/world/beniamino.png";
+import Jussi from "../assets/world/jussi.jpg";
+import Lanza from "../assets/world/lanza.jpg";
+import Monaco from "../assets/world/monaco.jpg";
+import Pavarotti from "../assets/world/pavarotti.jpg";
 
 export default function Example() {
   return (

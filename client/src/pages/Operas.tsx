@@ -35,7 +35,7 @@ export default function Example() {
 
   const operas = async () => {
     try {
-      const res = await axios.get("http://127.0.0.1:8000/api/operas");
+      const res = await axios.get("/api/operas/");
       console.log(res.data);
       setOperas(res.data);
       setReady(true);

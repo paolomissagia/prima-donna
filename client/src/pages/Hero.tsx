@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import Photo2 from "../assets/Hero/photo2.jpg";
+import Photo2 from "../assets/hero/photo2.jpg";
 import { Link } from "react-scroll";
 
 const navigation = [

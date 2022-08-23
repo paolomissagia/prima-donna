@@ -2,7 +2,7 @@ import { Fragment, useEffect, useState } from "react";
 import { Dialog, Disclosure, Transition } from "@headlessui/react";
 import { XIcon } from "@heroicons/react/outline";
 import { FilterIcon, MinusSmIcon, PlusSmIcon } from "@heroicons/react/solid";
-import Catalogue from "./Catalogue";
+import Catalogue from "../components/Opera";
 import axios from "axios";
 
 const filters = [
@@ -246,11 +246,12 @@ export default function Example() {
               <div className="lg:col-span-3">
                 <div className="border-4 border-dashed border-gray-200 rounded-lg h-[45rem] overflow-scroll">
                   {isReady ? (
-                    <Catalogue operas={isOperas} />
+                    <Catalogue operas={isOperas as any} />
                   ) : (
                     <div>Loading...</div>
                   )}
                 </div>
+                w
               </div>
             </div>
           </section>

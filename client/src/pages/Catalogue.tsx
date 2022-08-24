@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 import Caruso from "../assets/caruso.png";
 import Gedda from "../assets/gedda.png";
 import Beniamino from "../assets/beniamino.png";
@@ -19,9 +20,15 @@ export default function Example() {
               lorem ipsum dolor sit amet consectetur adipisicing elit.
               Consequatur cum iure voluptatibus facere nihil officia!
             </p>
-            <button className="inline-block text-center bg-indigo-600 border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-indigo-700 mt-8">
+            <Link
+              to="operas"
+              spy={true}
+              smooth={true}
+              duration={500}
+              className="inline-block text-center bg-indigo-600 border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-indigo-700 mt-8"
+            >
               catalogue
-            </button>
+            </Link>
           </div>
           <div>
             <div className="mt-10">

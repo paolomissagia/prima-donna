@@ -2,11 +2,11 @@
   "name": "prima-donna",
   "version": "1.0.0",
   "description": "Opera Virtual House",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.ts",
-    "server": "nodemon index.ts",
+    "start": "node index.js",
+    "server": "nodemon index.js",
     "dev": "concurrently \"npm run server\" \"cd client && npm run start\"",
     "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
   },

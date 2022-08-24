@@ -3,7 +3,6 @@ import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Photo from "../assets/hero.jpg";
 import { Link } from "react-scroll";
-import { GiSydneyOperaHouse } from "react-icons/gi";
 import Logo from "../assets/logo.png";
 
 const navigation = [

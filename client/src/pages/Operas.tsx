@@ -26,6 +26,16 @@ const filters = [
       { value: "Russian", label: "Russian", checked: false },
     ],
   },
+  {
+    id: "year",
+    name: "Year",
+    options: [
+      { value: "1990", label: "1990", checked: false },
+      { value: "1875", label: "1875", checked: false },
+      { value: "1881", label: "1881", checked: false },
+      { value: "1854", label: "1854", checked: false },
+    ],
+  },
 ];
 
 export default function Example() {

@@ -17,8 +17,8 @@ export default function Example() {
               brave the new world
             </h1>
             <p className="mt-4 text-xl text-gray-500">
-              lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequatur cum iure voluptatibus facere nihil officia!
+              below you will be able to discover the world of opera in a new
+              way, based on the works of the greatest composers.
             </p>
             <Link
               to="operas"
@@ -27,7 +27,7 @@ export default function Example() {
               duration={500}
               className="inline-block text-center bg-indigo-600 border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-indigo-700 mt-8 hover:cursor-pointer"
             >
-              catalogue
+              operas
             </Link>
           </div>
           <div>

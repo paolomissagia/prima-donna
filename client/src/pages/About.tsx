@@ -1,10 +1,10 @@
 const features = [
-  { name: "Origin", description: "Lorem ipsum dolor sit amet." },
-  { name: "Meaning", description: "Lorem ipsum dolor sit amet." },
-  { name: "History", description: "Lorem ipsum dolor sit amet." },
-  { name: "Finish", description: "Lorem ipsum dolor sit amet." },
-  { name: "Includes", description: "Lorem ipsum dolor sit amet." },
-  { name: "Considerations", description: "Lorem ipsum dolor sit amet." },
+  { name: "origin", description: "italy" },
+  { name: "creation", description: "sixteenth century" },
+  { name: "format", description: "music, performing and singing" },
+  { name: "duration", description: "usually two-three hours" },
+  { name: "personalities", description: "pavarotti & maria callas" },
+  { name: "roles", description: "tenor, soprano, baritone" },
 ];
 
 export default function Example() {
@@ -16,12 +16,12 @@ export default function Example() {
       <div className="text-center">
         <div className="w-2/3 mx-auto">
           <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:tracking-tight sm:text-6xl">
-            opera
+            what is opera
           </h2>
           <p className="mt-4 text-gray-500 text-xl">
-            lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-            veniam sapiente commodi nisi molestiae voluptatum libero incidunt
-            odio placeat facilis.
+            friedrich nietzsche once classified opera as the modern
+            manifestation of culture as a form of art; but why exactly is this
+            so?
           </p>
         </div>
         <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">

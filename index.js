@@ -10,15 +10,15 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "client", "build")));
 
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "client", "build", "index.html"));
-});
-
 const operasRoute = require("./routes/operas");
 app.use("/api", operasRoute);
 
 mongoose.connect(process.env.MONGODB_URI, () => {
   console.log("Connected to the Database");
+});
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "client", "build", "index.html"));
 });
 
 app.listen(process.env.PORT, () => {

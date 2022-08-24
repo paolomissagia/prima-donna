@@ -260,7 +260,6 @@ export default function Example() {
                     <div>Loading...</div>
                   )}
                 </div>
-                w
               </div>
             </div>
           </section>
